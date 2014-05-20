@@ -1,0 +1,30 @@
+{
+  "name": "express-gson",
+  "version": "0.1.0",
+  "description": "Encode/decode circular javascript object graphs in express request/response",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/aaaristo/express-gson.git"
+  },
+  "keywords": [
+    "express",
+    "gson",
+    "circular",
+    "object",
+    "graph"
+  ],
+  "author": "aaaristo",
+  "license": "Apache2",
+  "bugs": {
+    "url": "https://github.com/aaaristo/express-gson/issues"
+  },
+  "homepage": "https://github.com/aaaristo/express-gson",
+  "dependencies": {
+    "gson": "^0.1.5",
+    "underscore": "^1.6.0"
+  }
+}
