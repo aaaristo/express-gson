@@ -18,8 +18,9 @@ var express    = require('express'),
 
 var app = express();
 
-// parse application/json and application/x-www-form-urlencoded
 app.use(bodyParser());
+
+// decoded!
 app.use(gson());
 
 app.post('/echo',function (req, res)
